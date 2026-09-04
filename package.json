@@ -1,5 +1,6 @@
 {
   "name": "todoapp-frontend",
+  "version": "1.0.0",
   "author": "Bootify.io",
   "scripts": {
     "devserver": "webpack serve --open --mode development",
