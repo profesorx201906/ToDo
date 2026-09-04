@@ -1,0 +1,141 @@
+{
+  "app": {
+    "title": "Todoapp"
+  },
+  "navigation": {
+    "toggle": "Toggle navigation",
+    "home": "Home",
+    "entities": "Entities"
+  },
+  "home": {
+    "index": {
+      "headline": "Welcome to your new app!",
+      "text": "Your app was created with <a href=\"https://bootify.io\" target=\"_blank\">Bootify.io</a> and can now be customized. If you are happy with the result, <strong>please recommend us to other developers</strong> - so Bootify.io can grow further.",
+      "swagger": {
+        "text": "Swagger is",
+        "link": "available here"
+      },
+      "exploreEntities": "Explore your entities"
+    }
+  },
+  "error": {
+    "page": {
+      "headline": "Error",
+      "message": "The page you are looking for is not available right now."
+    }
+  },
+  "category": {
+    "list": {
+      "headline": "Categories",
+      "createNew": "Create new Category",
+      "empty": "No Categories could be found.",
+      "edit": "Edit",
+      "delete": "Delete"
+    },
+    "add": {
+      "headline": "Add Category",
+      "back": "Back to list"
+    },
+    "id": {
+      "label": "Id"
+    },
+    "name": {
+      "label": "Name"
+    },
+    "color": {
+      "label": "Color"
+    },
+    "edit": {
+      "headline": "Edit Category",
+      "back": "Back to list"
+    },
+    "todoItem": {
+      "category": {
+        "referenced": "This entity is still referenced by Todo Item {{id}} via field Category."
+      }
+    },
+    "create": {
+      "success": "Category was created successfully."
+    },
+    "update": {
+      "success": "Category was updated successfully."
+    },
+    "delete": {
+      "success": "Category was removed successfully."
+    }
+  },
+  "todoItem": {
+    "list": {
+      "headline": "Todo Items",
+      "createNew": "Create new Todo Item",
+      "empty": "No Todo Items could be found.",
+      "edit": "Edit",
+      "delete": "Delete"
+    },
+    "add": {
+      "headline": "Add Todo Item",
+      "back": "Back to list"
+    },
+    "id": {
+      "label": "Id"
+    },
+    "title": {
+      "label": "Title"
+    },
+    "description": {
+      "label": "Description"
+    },
+    "priority": {
+      "label": "Priority"
+    },
+    "dueDate": {
+      "label": "Due Date"
+    },
+    "completed": {
+      "label": "Completed"
+    },
+    "createdAt": {
+      "label": "Created At"
+    },
+    "updatedAt": {
+      "label": "Updated At"
+    },
+    "category": {
+      "label": "Category"
+    },
+    "edit": {
+      "headline": "Edit Todo Item",
+      "back": "Back to list"
+    },
+    "create": {
+      "success": "Todo Item was created successfully."
+    },
+    "update": {
+      "success": "Todo Item was updated successfully."
+    },
+    "delete": {
+      "success": "Todo Item was removed successfully."
+    }
+  },
+  "exists": {
+    "category": {
+      "name": "This Name is already taken."
+    }
+  },
+  "select": {
+    "empty": {
+      "label": "Please select"
+    }
+  },
+  "delete": {
+    "confirm": "Do you really want to delete this element? This cannot be undone."
+  },
+  "operation": {
+    "success": "Your operation was successful."
+  },
+  "required": "Please provide a value.",
+  "maxlength": "Your value must have a length of less then ${max} characters.",
+  "valid": {
+    "offsetDateTime": "Please provide a valid date with offset, for example \"2026-01-23T14:55:00+01:00\"."
+  }
+}
